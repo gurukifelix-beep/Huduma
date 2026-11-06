@@ -51,7 +51,7 @@ function App() {
             <span>huduma<span className="brand-light">credit</span></span>
           </a>
           <nav className="nav-links" aria-label="Main navigation">
-            <a href="#plans">Payment plans</a>
+            <a href="#plans">Plans</a>
             <a href="#requirements">Requirements</a>
             <a className="nav-cta" href={PREORDER_URL}>Get started <ArrowIcon /></a>
           </nav>
@@ -62,12 +62,15 @@ function App() {
         <section className="hero">
           <div className="page-width hero-grid">
             <div className="hero-copy">
-              <div className="eyebrow"><span className="eyebrow-dot" /> A smarter way to ride</div>
-              <h1>Move forward.<br /><em>On your terms.</em></h1>
-              <p className="hero-description">Own your e-bike with a payment plan that fits your life—and ride with a nationwide battery swap network behind you.</p>
+              <div className="eyebrow"><span className="eyebrow-dot" /> Premium e-bike financing</div>
+              <h1>Own the road.<br /><em>Without the rush.</em></h1>
+              <p className="hero-description">
+                Flexible financing for modern riders across Kenya—with reliable support,
+                nationwide battery swapping, and a simpler path to ownership.
+              </p>
               <div className="hero-actions">
                 <a className="button button-dark" href={PREORDER_URL}>Explore your options <ArrowIcon /></a>
-                <a className="text-link" href={WHATSAPP_URL} target="_blank" rel="noreferrer">Talk to our team <span aria-hidden="true">→</span></a>
+                <a className="text-link" href={WHATSAPP_URL} target="_blank" rel="noreferrer">Chat on WhatsApp <span aria-hidden="true">→</span></a>
               </div>
               <div className="trust-row" aria-label="Huduma Credit network information">
                 <div className="trust-item"><strong>415<span>+</span></strong><span>swap stations</span></div>
@@ -79,12 +82,12 @@ function App() {
             <div className="plans-panel" id="plans">
               <div className="panel-topline"><span>OWN YOUR RIDE</span><span className="availability"><i /> Plans available</span></div>
               <h2>Choose your pace.</h2>
-              <p className="panel-intro">Straightforward options designed to help you get on the road.</p>
+              <p className="panel-intro">Straightforward options designed to help you ride sooner.</p>
               <div className="plan-list">
                 <PlanCard title="Standard" duration="12 months" deposit="KSh 15,000" daily="KSh 500 / day" featured />
                 <PlanCard title="Value" duration="24 months" deposit="Confirm amount" daily="KSh 290 / day" />
               </div>
-              <p className="deposit-note"><span aria-hidden="true">*</span> The 24-month deposit was listed as both KSh 10,000 and KSh 15,000 in the supplied details. Please confirm the correct amount before applying.</p>
+              <p className="deposit-note"><span aria-hidden="true">*</span> The 24-month deposit appears in the supplied details as both KSh 10,000 and KSh 15,000. Please confirm the correct amount before publishing or finalising an application.</p>
             </div>
           </div>
           <div className="hero-caption page-width"><span>01 — BUILT FOR THE JOURNEY</span><span>KENYA</span></div>
